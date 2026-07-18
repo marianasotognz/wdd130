@@ -7,7 +7,7 @@
 /* Variáveis */
 :root {
     --cor-primaria: rgb(28, 125, 17);
-    --cor-secundaria: rgb(38, 174, 58);
+    --cor-secundaria: rgb(227, 213, 58);
     --cor-destaque1: black;
     --cor-destaque2: #e9c46a;
     --fonte-titulo: "Times New Roman", Georgia, serif;
@@ -34,6 +34,9 @@ article {
     margin: 16px;
     padding: 8px;
 }
+
+nav a {
+    color: var(--cor-secundaria);}
 
 /* Cabeçalho */
 header {
@@ -71,6 +74,15 @@ h2 {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 16px;
+
+}
 .hero article img {
     float: right;
     width: 125px;
@@ -82,3 +94,7 @@ h2 {
 .redes-sociais a {
     text-decoration: none;
 }
+
+footer a {
+    text-decoration: none;
+    }
