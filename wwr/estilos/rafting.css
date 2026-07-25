@@ -6,9 +6,10 @@
 
 
 :root {
-    --cor-primaria: rgb(28, 125, 17);
+    --cor-primaria: #1c7d11;
     --cor-destaque1: black;
     --cor-destaque2: #e9c46a;
+    --cor-artigo: rgba(255, 255, 255, 0.8);
     --fonte-titulo: "Times New Roman", Georgia, serif;
     --fonte-body: Arial, Helvetica, sans-serif;
     --cor-branca: #fff;
@@ -95,7 +96,7 @@ h2 {
     bottom: 20px;
     left: 20px;
     width: 80%;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: var(--cor-artigo);
     padding: 16px;
 
 }
