@@ -82,7 +82,7 @@ h2 {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
+    top: 40px;
     width: 100%;
     padding: 16px;
     text-align: center;
@@ -213,6 +213,7 @@ footer a {
     width: 220px;
     height: 160px;
     object-fit: cover;
+    object-position: top;
 }
 
 .employees figure {
