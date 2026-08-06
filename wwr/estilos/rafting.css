@@ -132,7 +132,7 @@ footer {
     padding: 20px;
 }
 
-.socialmedia {
+.redes-sociais {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -140,7 +140,7 @@ footer {
     gap: 15px;
 }
 
-.socialmedia a {
+.redes-sociais a {
     display: inline-block;
 }
 nav {
@@ -148,7 +148,7 @@ nav {
     padding: 8px;
 }
 
-.socialmedia img {
+.redes-sociais img {
     width: 40px;
     height: 40px;
 }
