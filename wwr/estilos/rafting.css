@@ -300,6 +300,7 @@ input {
 
 .grid article {
     text-align: center;
+    flex: 1;
 }
 
 /* CALL TO ACTION */
@@ -331,9 +332,6 @@ input {
     align-items: flex-start;
 }
 
-.grid article {
-    flex: 1;
-}
 
 .passeios-grid {
     display: grid;
