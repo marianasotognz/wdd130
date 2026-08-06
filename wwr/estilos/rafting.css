@@ -334,11 +334,7 @@ input {
 .grid article {
     flex: 1;
 }
-.passeios-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-}
+
 .passeios-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
